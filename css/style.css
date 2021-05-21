@@ -1,0 +1,98 @@
+#portfolio .portfolio-row-odd {
+    background: linear-gradient(to right, rgba(224, 224, 224, 0) 25%, rgba(224, 224, 224, 0.2) 50%, rgba(224, 224, 224, 0) 75%);
+}
+  
+#portfolio .portfolio-row-even {
+    background: linear-gradient(to right, rgba(224, 224, 224, 0) 15%, rgba(224, 224, 224, 0.2) 33%, rgba(224, 224, 224, 0) 50%, rgba(224, 224, 224, 0.2) 66%, rgba(224, 224, 224, 0) 85%);
+}
+
+#portfolio img{
+    height: 253px;
+}
+
+#myCarousel .carousel-inner .carousel-item {
+    height: 450px;
+    background: black;
+    color: #e0e0e0;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+#myCarousel .carousel-inner .carousel-item .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#myCarousel .overlay-image {
+    height: inherit;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.skill-image-background {
+    width: 225px;
+    height: 225px;
+}
+
+.skill-image-background img{
+    margin-top: 14.8%;
+    width: 70.7%;
+    height: 70.7%;
+    border: 0;
+}
+
+.skill-image-background .skill-image-no-adjustment{
+    margin: 0;
+    width: inherit;
+    height: inherit;
+    border: 0;
+}
+
+.footer {
+    color: #e0e0e0;
+}
+
+.footer ul li img{
+    width: 50px;
+    object-fit: cover;
+}
+
+ul.social-buttons li a {
+    background-color: inherit;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: inherit;
+    opacity: 0.6;
+}
+
+.portfolio-modal .modal-content {
+    color: #e0e0e0;
+    background: rgb(11, 19, 138);
+}
+
+.portfolio-modal .modal-content img {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #e0e0e0;
+    border-radius: 1.5%;
+}
+
+#thxMessage {
+    color: #e0e0e0;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+}
